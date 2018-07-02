@@ -19,6 +19,6 @@
     </a>
 </center>
 
-Sweet vapor tutorial by [Martin Lasek][tutorial] on setting up project in Vapor3.
+Sweet [Vapor tutorial by Martin Lasek][tutorial] on how to use Leaf in Vapor3
 
-[tutorial]: https://medium.com/@martinlasek/tutorial-how-to-set-up-a-vapor-3-project-75466394cf2e
+[tutorial]: https://medium.com/@martinlasek/tutorial-how-to-use-leaf-70d796831ec5
