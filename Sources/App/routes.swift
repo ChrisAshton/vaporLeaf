@@ -1,4 +1,6 @@
 import Vapor
+import Leaf // added
+
 
 /// Register your application's routes here.
 public func routes(_ router: Router) throws {
@@ -14,6 +16,19 @@ public func routes(_ router: Router) throws {
     
     router.get("json") { req in
         return Person(name: "George Foreman", age: 26)
+    }
+    
+    router.get("view") { req -> Future<View> in
+        return try req.view().render("welcome") // added
+    }
+    
+    router.get("movies") { req -> Future<View> in
+        return try req.view().render("fresh_tomatoes")
+    }
+    
+    router.get("bonus") { req -> Future<View> in
+        let data = ["name":"William", "age":"4"]
+        return try req.view().render("whoami", data)
     }
 }
 

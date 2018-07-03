@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Leaf</title>
+    </head>
+    <body>
+        <h1 id="welcome heading">Welcome to my first leaf template!</h1>
+
+    </body>
+</html>
